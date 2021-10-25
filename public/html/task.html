@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ElementsAIO</title>
+    <script src="../assets/js/jquery.min.js"></script>
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/fontawesome.css" rel="stylesheet">
+    <link href="../assets/css/nice-select.css" rel="stylesheet">
+    <link href="../assets/css/all.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/responsive.css" rel="stylesheet">
+    <!-- Loading Functions from home.js
+    -------------------------------------------------- -->
+    <script src="../assets/js/base-functions.js" defer></script>
+</head>
+
+<body>
+    
+
+  <section class="task-section" id="main-section">
+        <div class="menu-trigger">
+            <i class="fal fa-bars"></i>
+        </div>
+
+
+        <div class="side-menu-warp">
+            <div class="menu_cross">
+                <i class="fal fa-times"></i>
+            </div>
+            <div class="profile">
+                <div class="pro">
+                    <img id="avatar" src="" alt="">
+                </div>
+                <div class="pro-txt">
+                    <h4>Welcome Back, </h4>
+                    <span id="username"></span>
+                </div>
+            </div>
+
+            <div class="slide-menu">
+                <ul>
+                    <li><a href="./index.html"><i class="far fa-house-flood"></i>Home</a></li>
+                    <li><a href="./profile.html"><i class="fal fa-user"></i>Profiles</a></li>
+                    <li class="active"><a href="./task.html"><i class="far fa-clipboard-list"></i>Tasks</a></li>
+                    <li><a href="./proxies.html"><i class="fal fa-map-marker-alt"></i>Proxies</a></li>
+                    <li><a href="./setting.html"><i class="fal fa-cog"></i>Settings</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <div class="main-content-area d-flex">
+            <div class="transparent-topbar"></div>
+            <div class="add-task-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="add-task-warp">
+                                <div class="add-task">
+                                    <div class="addtask-btn">
+                                        <button data-toggle="modal" data-target="#addstore">Add Store</button>
+                                        <button data-toggle="modal" data-target="#delete_alls">Delete All</button>
+                                    </div>
+                                    <div class="task-data">
+                                        <div class="task-data-list">
+                                            <p>Shopify - Kith</p>
+                                            <p><b>Kith 1</b></p>
+                                            <p>Kith 3 KaBoom Mens</p>
+                                            <p>Mens Small 1</p>
+                                            <p>Group 5 Kith</p>
+                                            <p>Mens Small 1</p>
+                                            <p>Kith 8 Test</p>
+                                        </div>
+                                        <div class="task-data-list">
+                                            <p>FootLocker</p>
+                                            <p><b>Foot3</b></p>
+                                            <p>Foot3</p>
+                                            <p>FootLocker Rerun</p>
+                                        </div>
+                                        <div class="task-data-list">
+                                            <p>Supreme</p>
+                                            <p><b>SupremeBOGO 1</b></p>
+                                            <p>Supreme Camo Hat3</p>
+                                            <p>Test3 Supreme</p>
+                                        </div>
+                                        <div class="task-data-list">
+                                            <p>Shopify - Palace</p>
+                                            <p><b>TriPALACE 3</b></p>
+                                            <p>Test 3 Palace</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <div class="create-task-wrapper">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="create-task-inner">
+                                            <h4>Shopify - Kith (All Tasks)</h4>
+                                            <div class="monitor-store">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="monitor-box-warp">
+                                                            <div class="monitor-bx">
+                                                                <div class="monitor-diley">
+                                                                    <label for="">Monitor Delay</label>
+                                                                    <input type="text" placeholder="1600 ">
+                                                                </div>
+                                                            </div>
+                                                            <div class="monitor-bx">
+                                                                <div class="store-password">
+                                                                    <input type="text" placeholder="Store Password">
+                                                                    <p>(Optional)</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="monitor-bx">
+                                                                <div class="store-password">
+                                                                    <input type="text" placeholder="Store Password">
+                                                                    <p>(Optional)</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="monitor-box-warp">
+                                                            <div class="monitor-bx">
+                                                                <div class="monitor-diley">
+                                                                    <label for="">Monitor Type</label>
+                                                                    <select name="" id="">
+                                                                        <option value="">Keywords</option>
+                                                                        <option value="">Keywords</option>
+                                                                        <option value="">Keywords</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="monitor-bx">
+                                                                <div class="store-password">
+                                                                    <input type="text" placeholder="Good Keywords">
+                                                                </div>
+                                                            </div>
+                                                            <div class="monitor-bx">
+                                                                <div class="store-password">
+                                                                    <input type="text" placeholder="Bad Keywords">
+                                                                    <p>(Optional)</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6  col-md-12">
+                                        <div class="create-task-inner">
+                                            <h4>Shopify - Kith (All Tasks)</h4>
+                                            <div class="monitor-store">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="monitor-box-warp">
+                                                            <div class="monitor-bx">
+                                                                <div class="monitor-diley pt-2">
+                                                                    <select name="" id="">
+                                                                        <option value="">item</option>
+                                                                        <option value="">item</option>
+                                                                        <option value="">item</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="monitor-bx">
+                                                                <div class="store-password">
+                                                                    <input type="text" placeholder="Store Password">
+                                                                    <p>(Optional)</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="monitor-bx">
+                                                                <div class="store-password">
+                                                                    <input type="text" placeholder="Store Password">
+                                                                    <p>(Optional)</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="monitor-box-warp mwarp-2">
+                                                            <div class="monitor-bx">
+                                                                <div class="monitor-diley pt-2">
+                                                                    <select name="" id="">
+                                                                        <option value="">Proxy</option>
+                                                                        <option value="">Proxy2</option>
+                                                                        <option value="">Proxy3</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="monitor-bx">
+                                                                <div class="monitor-diley pt-2">
+                                                                    <select name="" id="">
+                                                                        <option value="">Size</option>
+                                                                        <option value="">Size 2</option>
+                                                                        <option value="">Size 3</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="monitor-bx">
+                                                                <div class="monitor-diley pt-2">
+                                                                    <select name="" id="">
+                                                                        <option value="">Profile</option>
+                                                                        <option value="">Profile 2</option>
+                                                                        <option value="">Profile 3</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="softifykith-talbe-wrapper">
+                                <div class="softifykith-talbe-inner">`
+                                    <div class="softifykith-title">
+                                        <h4>Shopify - Kith 1 (11 Tasks)</h4>
+                                        <div class="softify-title-btn">
+                                            <button data-toggle="modal" data-target="#addtask">Add Task</button>
+                                            <button>Start all</button>
+                                            <button data-toggle="modal" data-target="#delete_alls">Delete all</button>
+                                        </div>
+                                    </div>
+                                    <div class="softifykith-table past-checkout-box">
+                                        <div class="softify-table-inner">
+                                            <table class="table">
+                                                <tbody>
+                                                  <tr>
+                                                    <td>
+                                                        <div class="checkout-left">
+                                                            <div class="checkout-thumb">
+                                                                <img src="assets/img/p2.png" alt="">
+                                                            </div>
+                                                            <div class="checkout-meddle-txt">
+                                                                <h4>Kith - Zoomba Tee</h4>
+                                                                <p>Profile 1</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>Size: SM</td>
+                                                    <td>Proxy: Shazam Proxies</td>
+                                                    <td>Checking Stock..</td>
+                                                    <td><div class="play-btn"><a href=""><i class="fas fa-play"></i></a></div></td>
+                                                  </tr>
+                                                  
+                                                  <tr>
+                                                    <td>
+                                                        <div class="checkout-left">
+                                                            <div class="checkout-thumb">
+                                                                <img src="assets/img/p2.png" alt="">
+                                                            </div>
+                                                            <div class="checkout-meddle-txt">
+                                                                <h4>Kith - Zoomba Tee</h4>
+                                                                <p>Profile 1</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>Size: SM</td>
+                                                    <td>Proxy: Shazam Proxies</td>
+                                                    <td>Checking Stock..</td>
+                                                    <td><div class="play-btn"><a href=""><i class="fas fa-play"></i></a></div></td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td>
+                                                        <div class="checkout-left">
+                                                            <div class="checkout-thumb">
+                                                                <img src="assets/img/p2.png" alt="">
+                                                            </div>
+                                                            <div class="checkout-meddle-txt">
+                                                                <h4>Kith - Zoomba Tee</h4>
+                                                                <p>Profile 1</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>Size: SM</td>
+                                                    <td>Proxy: Shazam Proxies</td>
+                                                    <td>Checking Stock..</td>
+                                                    <td><div class="play-btn"><a href=""><i class="fas fa-play"></i></a></div></td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td>
+                                                        <div class="checkout-left">
+                                                            <div class="checkout-thumb">
+                                                                <img src="assets/img/p2.png" alt="">
+                                                            </div>
+                                                            <div class="checkout-meddle-txt">
+                                                                <h4>Kith - Zoomba Tee</h4>
+                                                                <p>Profile 1</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>Size: SM</td>
+                                                    <td>Proxy: Shazam Proxies</td>
+                                                    <td>Checking Stock..</td>
+                                                    <td><div class="play-btn"><a href=""><i class="fas fa-play"></i></a></div></td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td>
+                                                        <div class="checkout-left">
+                                                            <div class="checkout-thumb">
+                                                                <img src="assets/img/p2.png" alt="">
+                                                            </div>
+                                                            <div class="checkout-meddle-txt">
+                                                                <h4>Kith - Zoomba Tee</h4>
+                                                                <p>Profile 1</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>Size: SM</td>
+                                                    <td>Proxy: Shazam Proxies</td>
+                                                    <td>Checking Stock..</td>
+                                                    <td><div class="play-btn"><a href=""><i class="fas fa-play"></i></a></div></td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td>
+                                                        <div class="checkout-left">
+                                                            <div class="checkout-thumb">
+                                                                <img src="assets/img/p2.png" alt="">
+                                                            </div>
+                                                            <div class="checkout-meddle-txt">
+                                                                <h4>Kith - Zoomba Tee</h4>
+                                                                <p>Profile 1</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>Size: SM</td>
+                                                    <td>Proxy: Shazam Proxies</td>
+                                                    <td>Checking Stock..</td>
+                                                    <td><div class="play-btn"><a href=""><i class="fas fa-play"></i></a></div></td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td>
+                                                        <div class="checkout-left">
+                                                            <div class="checkout-thumb">
+                                                                <img src="assets/img/p2.png" alt="">
+                                                            </div>
+                                                            <div class="checkout-meddle-txt">
+                                                                <h4>Kith - Zoomba Tee</h4>
+                                                                <p>Profile 1</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>Size: SM</td>
+                                                    <td>Proxy: Shazam Proxies</td>
+                                                    <td>Checking Stock..</td>
+                                                    <td><div class="play-btn"><a href=""><i class="fas fa-play"></i></a></div></td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td>
+                                                        <div class="checkout-left">
+                                                            <div class="checkout-thumb">
+                                                                <img src="assets/img/p2.png" alt="">
+                                                            </div>
+                                                            <div class="checkout-meddle-txt">
+                                                                <h4>Kith - Zoomba Tee</h4>
+                                                                <p>Profile 1</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>Size: SM</td>
+                                                    <td>Proxy: Shazam Proxies</td>
+                                                    <td>Checking Stock..</td>
+                                                    <td><div class="play-btn"><a href=""><i class="fas fa-play"></i></a></div></td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+  </section>
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal delete-modal fade" id="addtask" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="add-task-popup">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="task-list">
+                                    <ul>
+                                        <li><a href="">Kith Zoomba Tee</a></li>
+                                        <li><a href="">Kith Beanie</a></li>
+                                        <li><a href="">Kith XTRA Hoodie</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="">Shazam Proxies</a></li>
+                                        <li><a href="">Test Proxy 1</a></li>
+                                        <li><a href="">Qiam Zoom Proxies</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="">Profile 1</a></li>
+                                        <li><a href="">Profile 2</a></li>
+                                        <li><a href="">Matthew’s Profile</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="task-list">
+                                    <ul>
+                                        <li><a href="">Small</a></li>
+                                        <li><a href="">Small</a></li>
+                                        <li><a href="">Large</a></li>
+                                        <li><a href="">Random</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
+    <!-- Modal -->
+    <div class="modal delete-modal fade" id="addstore" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="add-store-text">
+                        <h4>Add a store.</h4>
+                        <ul>
+                            <li><a href="">Shopify - Palace </a></li>
+                            <li><a href="">Shopify - Kith</a></li>
+                            <li><a href="">Supreme</a></li>
+                            <li><a href="">FootLocker</a></li>
+                            <li><a href="">Site Raffles</a></li>
+                        </ul>
+                        <div class="save-btn">
+                            <button data-dismiss="modal">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal delete-modal fade" id="delete_alls" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="sure-alart">
+                        <h4>Are you sure you want to delete all tasks?</h4>
+                        <div class="poxies-motal-btn">
+                            <button data-dismiss="modal">Yes</button>
+                            <button data-dismiss="modal">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/Popper.js"></script>
+    <script src="../assets/js/jquery.nicescroll.min.js"></script>
+    <script src="../assets/js/jquery.nice-select.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+   
+</body>
+
+</html>

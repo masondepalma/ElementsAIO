@@ -1,0 +1,921 @@
+/* XL Device :1200px. */
+@media (min-width: 1500px) and (max-width: 1650px) {
+    .checkout-thumb img {
+        width: 65px;
+    }
+    .checkout-meddle-txt h4 {
+        font-size: 16px;
+    }
+    .checkout-right-txt h4 {
+        font-size: 16px;
+    }
+    .past-checkout-box {
+        padding-right: 10px;
+    }
+    .create-card {
+        height: 200px;
+        margin-bottom: 40px;
+    }
+    .boom-table p {
+        font-size: 15px;
+        letter-spacing: 0;
+        padding: 8px 25px;
+    }
+    .status-btn span {
+        padding: 8px 28px;
+        border-radius: 35px;
+        letter-spacing: .3px;
+        font-size: 15px;
+    }
+    .create-task-wrapper {
+        padding: 25px 30px;
+    }
+    .softifykith-table .table td, .softifykith-table .table th {
+        font-size: 14px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1400px) and (max-width: 1499px) {
+    .checkout-thumb img {
+        width: 55px;
+    }
+    .checkout-meddle-txt h4 {
+        font-size: 15px;
+    }
+    .checkout-right-txt h4 {
+        font-size: 15px;
+    }
+    .past-checkout-box {
+        padding-right: 5px;
+    }
+    .past-checkout-box {
+        padding-right: 10px;
+    }
+    .create-card {
+        height: 180px;
+        margin-bottom: 40px;
+    }
+    .profile-box-wrapper {
+        padding: 25px 30px;
+    }
+    .boom-table p {
+        font-size: 14px;
+        letter-spacing: 0;
+        padding: 8px 25px;
+    }
+    .status-btn span {
+        padding: 8px 28px;
+        border-radius: 35px;
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+    .create-task-wrapper {
+        padding: 25px 25px;
+    }
+    .softifykith-table .table td, .softifykith-table .table th {
+        font-size: 14px;
+    }
+    .proxies-sections {
+        height: auto !important;
+        padding: 80px 25px !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LG Device :992px. */
+@media (min-width: 1300px) and (max-width: 1399px) {
+    .checkout-thumb img {
+        width: 50px;
+    }
+    .checkout-meddle-txt h4 {
+        font-size: 14px;
+    }
+    .checkout-right-txt h4 {
+        font-size: 14px;
+    }
+    .past-checkout-box {
+        padding-right: 5px;
+    }
+    .checkout-right-txt p {
+        font-size: 11px;
+        letter-spacing: 0;
+    }
+    .checkout-right-txt {
+        padding: 0 8px;
+    }
+    .checkout-thumb {
+        padding: 3px;
+        margin-right: 8px;
+    }
+    .checkout-bx-single {
+        padding: 5px;
+    }
+    .total-spending {
+        height: 100%;
+        padding: 0;
+        padding-top: 50px;
+    }
+    .past-checkout-box {
+        padding-right: 10px;
+    }
+    .create-card {
+        height: 180px;
+        margin-bottom: 40px;
+    }
+    .profile-box-wrapper {
+        padding: 25px 30px;
+    }
+    .boom-table p {
+        font-size: 13px;
+        letter-spacing: 0;
+        padding: 8px 20px;
+    }
+    .status-btn span {
+        padding: 8px 20px;
+        border-radius: 35px;
+        letter-spacing: 0px;
+        font-size: 13px;
+    }
+    .boom-action a {
+        padding-left: 8px;
+        margin-left: 8px;
+        font-size: 13px;
+    }
+
+   
+    .create-task-wrapper {
+        padding: 25px 15px;
+    }
+    .softifykith-table .table td, .softifykith-table .table th {
+        font-size: 14px;
+    }
+    .monitor-diley input {
+        width: 100%;
+    }
+    .monitor-diley .nice-select {
+        font-size: 13px;
+        letter-spacing: 0px;
+        width: 100%;
+    }
+    .softify-title-btn button {
+        font-size: 14px;
+    }
+    .proxies-sections {
+        height: auto !important;
+        padding: 80px 25px !important;
+    }
+    .task-section {
+        height: auto !important;
+        padding: 80px 25px !important;
+    }
+
+
+
+
+
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/* LG Device :992px. */
+@media (min-width: 1200px) and (max-width: 1299px) {
+    .checkout-thumb img {
+        width: 45px;
+    }
+    .checkout-meddle-txt h4 {
+        font-size: 13px;
+    }
+    .checkout-right-txt h4 {
+        font-size: 13px;
+    }
+    .past-checkout-box {
+        padding-right: 5px;
+    }
+    .checkout-right-txt p {
+        font-size: 11px;
+        letter-spacing: 0;
+    }
+    .checkout-right-txt {
+        padding: 0 7px;
+    }
+    .checkout-thumb {
+        padding: 3px;
+        margin-right: 6px;
+    }
+    .checkout-bx-single {
+        padding: 5px;
+    }
+    .total-spending {
+        height: 100%;
+        padding: 0;
+        padding-top: 50px;
+    }
+    .side-menu-warp {
+        height: 100%;
+        width: 220px;
+    }
+    .slide-menu ul li a {
+        padding: 10px 22px;
+        font-size: 14px;
+    }
+    .profile-box-wrapper {
+        padding: 25px 30px;
+    }
+    .create-card {
+        height: 170px;
+        margin-bottom: 40px;
+    }
+    .profile-box-wrapper {
+        padding: 25px 30px;
+    }
+    .boom-table p {
+        font-size: 13px;
+        letter-spacing: 0;
+        padding: 8px 20px;
+    }
+    .status-btn span {
+        padding: 8px 20px;
+        border-radius: 35px;
+        letter-spacing: 0px;
+        font-size: 13px;
+    }
+    .boom-action a {
+        padding-left: 8px;
+        margin-left: 8px;
+        font-size: 13px;
+    }
+    .poxies-boom-box {
+        padding: 20px 15px;
+    }
+    .boom-action a:first-child {
+        margin: 0;
+    }
+    .boom-table thead tr th {
+        font-size: 16px !important;
+    }
+    .boom-title-left h4 {
+        font-size: 28px;
+        margin: 0;
+    }
+    .boom-title-right a {
+        font-size: 18px;
+    }
+    .boom-title {
+        margin-bottom: 25px;
+    }
+    .create-task-wrapper {
+        padding: 25px 15px;
+    }
+    .softifykith-table .table td, .softifykith-table .table th {
+        font-size: 14px;
+    }
+    .monitor-diley input {
+        width: 100%;
+    }
+    .monitor-diley .nice-select {
+        font-size: 13px;
+        letter-spacing: 0px;
+        width: 100%;
+    }
+    .softify-title-btn button {
+        font-size: 14px;
+    }
+    .store-password input {
+        font-size: 12px;
+    }
+    #main-section {
+        padding: 25px 15px;
+    }
+    .proxies-sections {
+        height: auto !important;
+        padding: 60px 25px !important;
+    }
+    .task-section {
+        height: auto !important;
+        padding: 80px 25px !important;
+    }
+
+
+
+
+
+
+
+
+
+}
+ 
+
+
+
+
+
+
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .create-card {
+        margin-bottom: 30px;
+        height: 160px;
+    }
+    .card-txt h3 {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+    .card-txt {
+        padding-top: 25px;
+    }
+    .card-txt p {
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: .9px;
+    }
+    .edit-option i {
+        font-size: 14px;
+    }
+    .edit-option {
+        position: absolute;
+        right: 14px;
+        top: 12px;
+    }
+    .poxies-boom-box {
+        padding: 25px 15px;
+    }
+    .boom-title-left h4 {
+        font-size: 24px;
+    }
+    .boom-title {
+        margin-bottom: 25px;
+    }
+    .status-btn span {
+        padding: 8px 20px;
+        letter-spacing: 0;
+        font-size: 13px;
+    }
+    .boom-table p {
+        font-size: 13px;
+        letter-spacing: 0;
+        padding: 8px 20px;
+    }
+    .boom-action a {
+        padding-left: 9px;
+        margin-left: 2px;
+        font-size: 13px;
+    }
+    .poxies-boom-box {
+        max-height: 700px;
+    }
+    .boom-table {
+        height: 565px;
+        overflow-y: scroll;
+    }
+    #ascrail2000 {
+        margin-left: 8px !important;
+    }
+    .proxey-left {
+        padding: 25px 15px;
+    }
+    .proxy-item {
+        padding: 10px 15px;
+    }
+    .proxy-item h4 {
+        margin: 0;
+        font-size: 18px;
+    }
+    .proxy-item button {
+        font-size: 16px;
+    }
+    .softifykith-table .table td, .softifykith-table .table th {
+        padding: 8px 5px;
+        font-size: 13px;
+    }
+    .checkout-meddle-txt h4 {
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 5px;
+    }
+    .task-section {
+        height: auto !important;
+        padding: 100px 0;
+    }
+    .proxies-sections {
+        height: auto !important;
+        padding: 80px 25px !important;
+    }
+    .task-section {
+        height: auto !important;
+        padding: 80px 25px !important;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* LG Device :992px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .home-section {
+        padding: 100px 0;
+        height: auto !important;
+    }
+    .total-spending {
+        margin-bottom: 80px;
+    }
+    .past-checkout-box {
+        height: 600px;
+        padding-right: 20px;
+    }
+    .create-card {
+        margin-bottom: 40px;
+        height: 170px;
+    }
+    .card-txt {
+        max-width: 200px;
+        margin: 0 auto;
+        margin-left: 25px;
+    }
+    .card-txt h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .main-content-area {
+        padding-bottom: 50px;
+    }
+    .proxies-sections{
+        height: auto !important;
+        padding: 100px 0;
+    }
+    .poxies-boom-box {
+        margin-top: 50px;
+    }
+    .boom-title-left h4 {
+        font-size: 24px;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .boom-title-right a {
+        font-size: 18px;
+    }
+    .boom-table p {
+        font-size: 13px;
+        letter-spacing: 0;
+        padding: 8px 20px;
+    }
+    .status-btn span {
+        padding: 8px 22px;
+        letter-spacing: 0;
+        font-size: 14px;
+    }
+    .boom-table thead tr th {
+        font-size: 16px !important;
+    }
+    .proxy-item h4 {
+        font-size: 18px;
+    }
+    .proxy-item button {
+        font-size: 18px;
+    }
+    .task-section{
+        height: auto !important;
+        padding: 100px 0;
+    }
+    .add-task {
+        text-align: center;
+        max-width: 260px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .add-task-warp {
+        display: block;
+    }
+    .softify-table-inner .checkout-meddle-txt h4 {
+        font-size: 15px !important;
+    }
+
+    .softifykith-table .table td, .softifykith-table .table th {
+        font-size: 15px;
+    }
+    .play-btn a {
+        font-size: 14px;
+    }
+    .create-task-wrapper {
+        margin-top: 80px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (max-width: 1199px) {
+    .side-menu-warp {
+        height: 100%;
+        width: 220px;
+        position: fixed;
+        z-index: 99;
+        left: -100%;
+        top: 0;
+        padding: 20px;
+        visibility: hidden;
+        opacity: 0;
+        transition: .3s;
+        padding-top: 60px;
+        background-image: url(../img/bg.jpg);
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    }
+    #main-section {
+        padding: 35px 15px;
+    }
+    .past-checkout-box {
+        padding-right: 0;
+    }
+    .total-spending {
+        height: 100%;
+        padding: 0;
+    }
+    .checkout-thumb img {
+        width: 40px;
+    }
+    .checkout-meddle-txt h4 {
+        font-size: 13px;
+        line-height: 22px;
+
+    }
+    .checkout-right-txt h4 {
+        font-size: 13px;
+    }
+    .checkout-right-txt p {
+        font-size: 11px;
+        letter-spacing: 0;
+    }
+    .checkout-bx-single {
+        padding: 5px 5px;
+    }
+    #ascrail2000 {
+        margin-left: 20px;
+    }
+    .ck-right.wbr {
+        padding-right: 5px;
+        margin-right: 5px;
+    }
+    #main-section {
+        padding-top: 60px;
+    }
+    .menu_cross {
+        display: inline-block;
+    }
+    .menu-trigger {
+        display: block;
+     }
+     .total-spending {
+        padding-top: 30px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (max-width: 767px) {
+    #main-section {
+        padding: 35px 0px;
+    }
+    .profile-box-wrapper {
+        padding: 25px 20px;
+        padding-bottom: 0;
+    }
+    .create-card {
+        margin-bottom: 40px;
+        height: 160px;
+        width: 290px;
+        margin:20px auto;
+    }
+    #main-section {
+        padding: 25px 0px;
+        height: auto;
+    }
+    .card-info {
+        width: 290px;
+        padding: 20px;
+        margin-top: 25px;
+    }
+    .sure-delete {
+        padding: 0;
+    }
+    .popup-title {
+        margin-bottom: 25px;
+    }
+    .single-form input {
+        height: 40px;
+    }
+    .create-btn button {
+        padding: 9px 40px;
+    }
+    .create-from {
+        margin-bottom: 25px;
+    }
+    .card-top {
+        margin-bottom: 15px;
+    }
+    .card-number p {
+        font-size: 15px;
+    }
+    .card-info {
+
+        margin-top: 15px;
+    }
+    .total-box {
+        margin-bottom: 40px;
+    }
+    .past-checkout-scroller {
+        width: 500px;
+    }
+    #ascrail2000-hr {
+        margin-top: 15px;
+    }
+    .past-checkout {
+        padding-right: 10px;
+    }
+    .poxies-boom-box {
+        padding: 15px;
+        max-height: 650px;
+        margin-top: 50px;
+    }
+    .boom-table p {
+        font-size: 13px;
+        letter-spacing: 0;
+        padding: 8px 22px;
+    }
+    .status-btn span {
+        padding: 8px 35px;
+        letter-spacing: 0;
+        font-size: 13px;
+    }
+    .boom-table-inner {
+        width: 700px;
+    }
+    .boom-table {
+        height: 475px;
+        overflow-y: scroll;
+    }
+    .boom-title-left h4 {
+        font-size: 20px;
+    }
+    .boom-title-right a {
+        font-size: 18px;
+    }
+    .boom-title-left span {
+        font-size: 15px;
+    }
+    .boom-action a {
+        font-size: 13px;
+    }
+    .proxey-left {
+        padding: 15px;
+    }
+    .prox-txt h4 {
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+    .prox-txt span {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .search {
+        padding-left: 30px;
+    }
+    .search button {
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .search input {
+        font-size: 13px;
+    }
+    .search {
+        margin: 0 10px
+    }
+    .setting-box-wrapper {
+        width: 100%;
+        margin: 0 15px;
+        padding-bottom: 70px;
+    }
+    .Webhooks-setting {
+        width: 100%;
+
+    }
+    .Webhooks-setting input {
+        width: 100%;
+    }
+    .setting-box-wrapper {
+        padding: 25px 15px;
+        padding-bottom: 80px;
+    }
+    .pro-txts h4 {
+        font-size: 20px;
+    }
+    .pro-txts p {
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+    }
+    .create-task-wrapper {
+        padding: 25px 10px;
+        border-radius: 10px;
+        margin-top: 60px;
+    }
+    .monitor-diley label {
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+    .monitor-diley input {
+        width: 100%;
+        font-size: 13px;
+    }
+    .store-password input {
+        width: 100%;
+        font-size: 12px;
+    }
+    .monitor-diley .nice-select {
+        font-size: 12px;
+        letter-spacing: 0;
+        width: 88px;
+    }
+    .create-task-inner {
+        margin: 10px 0;
+    }
+    .softify-title-btn button {
+        font-size: 13px;
+        letter-spacing: 0;
+        padding: 8px 10px;
+        margin: 5px 2px;
+    }
+    .softifykith-title h4 {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    .softify-table-inner {
+        width: 700px;
+    }
+    .checkout-meddle-txt h4 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .softifykith-table .table td, .softifykith-table .table th {
+        padding: 8px;
+        font-size: 14px;
+    }
+    .softifykith-talbe-wrapper {
+        padding-right: 14px;
+    }
+    .pro-txts {
+        margin-left: 0;
+    }
+    .setting-pro {
+        display: block;
+    }
+    .pro-txts p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .pro-txts h4 {
+        font-size: 18px;
+    }
+    .pro-txts h4 a {
+        font-size: 13px;
+    }
+    #main-section {
+        padding-top: 60px;
+    }
+    .menu-trigger {
+       display: block;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  
+    
+    
+ 
+}
